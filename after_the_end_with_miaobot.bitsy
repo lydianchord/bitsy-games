@@ -1,0 +1,1349 @@
+AFTER THE END WITH MIAOBOT      by LydianChord
+
+# BITSY VERSION 6.3
+
+! ROOM_FORMAT 1
+
+DEFAULT_FONT unicode_european_small
+
+PAL 0
+251,242,228
+82,10,36
+167,84,98
+
+ROOM 0
+c,f,0,e,c,c,c,c,c,c,c,c,c,c,c,c
+c,d,h,k,c,j,g,g,g,g,g,g,i,c,c,c
+c,b,c,a,c,f,0,0,0,0,0,o,0,i,c,c
+c,b,c,a,c,f,0,0,0,0,0,0,0,0,i,c
+c,b,c,a,c,f,0,o,0,0,0,0,0,0,e,c
+c,b,c,a,c,f,0,0,0,0,0,0,0,o,e,c
+c,j,g,d,g,0,0,0,0,0,0,0,0,0,e,c
+c,f,0,0,0,0,0,0,0,0,o,0,0,0,e,c
+m,f,0,0,0,0,0,0,0,0,0,0,0,0,e,c
+c,f,o,0,0,0,0,0,0,0,0,0,0,0,e,c
+c,f,0,0,0,0,0,0,0,0,0,0,o,0,e,c
+c,f,0,0,0,0,0,0,0,0,0,0,0,0,e,c
+c,l,0,0,0,0,0,0,0,o,0,0,0,0,k,m
+c,c,l,0,0,o,0,0,0,0,0,0,0,k,c,c
+c,c,c,l,h,h,h,h,h,h,h,h,k,c,c,c
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+NAME start
+ITM 0 2,0
+ITM 4 4,12
+ITM 4 12,5
+ITM 4 6,3
+ITM 4 9,11
+EXT 3,6 0 3,1 FX wave
+EXT 1,1 0 1,6 FX wave
+EXT 15,12 2 0,12 FX fade_b
+END 0 0,8
+PAL 0
+
+ROOM 1
+c,c,c,c,c,p,c,c,c,c,c,c,c,p,c,c
+c,d,c,c,c,c,c,j,g,i,c,c,c,c,c,c
+c,c,c,c,c,c,c,d,0,d,c,j,d,i,c,c
+c,c,j,d,i,c,c,l,d,k,c,d,0,d,c,c
+p,c,f,0,d,c,c,c,c,c,c,l,h,k,c,c
+c,c,l,d,k,c,c,c,c,c,c,c,c,c,c,p
+c,c,c,c,c,c,c,p,c,j,d,i,c,c,c,c
+c,j,d,i,c,c,c,c,c,d,0,e,c,j,d,i
+c,d,0,e,c,j,g,i,c,l,d,k,c,f,0,d
+c,l,d,k,c,d,0,d,c,c,c,c,c,l,d,k
+c,c,c,c,c,l,d,k,c,c,p,c,c,c,c,c
+c,j,i,c,c,c,c,c,c,c,c,c,c,j,i,c
+m,l,0,g,g,g,g,g,d,g,g,g,g,o,k,c
+c,c,l,0,o,0,0,0,0,0,0,0,0,k,c,c
+c,c,c,l,h,h,h,h,h,h,h,h,k,c,c,c
+c,c,c,c,c,c,c,c,n,c,c,c,c,c,c,c
+NAME puzzle
+ITM 1 6,9
+ITM 2 8,2
+ITM 4 10,7
+ITM 3 3,4
+ITM f 8,14
+ITM 4 5,13
+EXT 8,12 1 8,3 FX wave
+EXT 8,3 1 8,12 FX wave
+EXT 7,2 1 1,8 FX wave
+EXT 1,8 1 7,2 FX wave
+EXT 9,2 1 4,4 FX wave
+EXT 4,4 1 9,2 FX wave
+EXT 2,7 1 12,2 FX wave
+EXT 12,2 1 2,7 FX wave
+EXT 13,3 1 15,8 FX wave
+EXT 15,8 1 13,3 FX wave
+EXT 11,3 1 9,7 FX wave
+EXT 9,7 1 11,3 FX wave
+EXT 14,9 1 6,10 FX wave
+EXT 6,10 1 14,9 FX wave
+EXT 3,3 1 3,5 FX wave
+EXT 3,5 1 3,3 FX wave
+EXT 10,8 1 10,6 FX wave
+EXT 10,6 1 10,8 FX wave
+EXT 5,9 1 1,1 FX wave
+EXT 1,1 1 5,9 FX wave
+EXT 0,12 3 15,12 FX fade_b
+EXT 2,9 5 7,8 FX wave
+EXT 14,7 5 6,7 FX wave
+EXT 7,9 5 6,9 FX wave
+END 1 8,15
+PAL 0
+
+ROOM 2
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+c,c,c,j,g,g,g,g,g,g,g,g,i,c,c,c
+c,c,j,0,0,0,0,o,0,0,0,0,0,i,c,c
+c,j,0,s,q,q,t,q,q,q,q,q,x,0,i,c
+c,f,0,r,0,0,0,0,0,0,0,0,r,0,e,c
+c,f,0,r,0,0,0,0,0,0,0,0,r,0,e,c
+c,f,0,r,0,0,0,0,0,0,0,0,r,o,e,c
+c,f,o,r,0,0,0,0,0,0,0,0,r,0,e,c
+c,f,0,r,0,0,0,0,0,0,0,0,r,0,e,m
+c,f,0,r,0,0,0,0,d,0,0,0,r,0,e,c
+c,f,0,y,q,q,q,q,u,q,q,q,z,0,e,c
+c,f,0,0,0,0,0,0,d,0,0,0,0,0,e,c
+m,l,0,0,0,o,0,0,0,0,0,0,0,0,k,c
+c,c,l,0,0,0,0,0,0,0,0,o,0,k,c,c
+c,c,c,l,h,h,h,h,h,h,h,h,k,c,c,c
+c,c,c,c,c,c,c,c,n,c,c,c,c,c,c,c
+NAME storage
+ITM 5 4,8
+ITM 5 4,9
+ITM 5 5,9
+ITM 5 5,8
+ITM 3 8,7
+ITM 7 10,4
+ITM 7 10,5
+ITM 7 11,5
+ITM 7 11,4
+ITM 6 4,4
+ITM 6 4,5
+ITM 6 5,5
+ITM 6 5,4
+ITM 8 10,8
+ITM 8 11,8
+ITM 8 11,9
+ITM 8 10,9
+ITM 4 6,4
+ITM 4 4,13
+EXT 0,12 0 15,12 FX fade_b
+EXT 8,15 3 8,0 FX fade_b
+EXT 15,8 4 0,8 FX fade_b
+END 5 8,11
+END 6 8,9
+PAL 0
+
+ROOM 3
+c,c,c,c,c,c,c,c,n,c,c,c,c,c,c,c
+c,c,p,c,c,c,j,g,g,i,c,c,c,c,c,c
+c,c,c,c,c,c,f,o,0,e,c,c,c,c,c,c
+c,v,m,m,m,m,f,0,0,e,m,m,m,m,12,c
+c,c,c,c,c,c,f,0,0,e,c,c,c,c,c,c
+c,c,c,c,c,c,f,0,o,e,c,c,c,c,c,c
+c,c,c,c,c,m,f,0,0,e,m,m,m,m,12,c
+c,c,c,p,c,c,f,0,0,e,c,c,c,c,c,c
+c,c,c,c,c,c,f,0,0,e,c,c,c,c,c,c
+c,v,m,m,m,m,f,0,0,e,m,m,m,m,12,c
+c,c,c,c,c,c,f,0,0,e,c,c,c,c,c,c
+c,c,c,c,c,c,f,0,0,0,g,g,g,g,i,c
+c,v,m,m,m,m,f,0,0,o,0,0,0,0,e,m
+c,c,c,c,c,c,f,0,0,0,0,0,0,o,k,c
+c,c,c,c,c,c,f,0,0,0,0,0,0,k,c,c
+c,v,m,m,m,m,l,h,h,h,h,h,k,c,c,c
+NAME docks
+ITM 4 8,13
+ITM 9 10,14
+EXT 8,0 2 8,15 FX fade_b
+EXT 15,12 1 0,12 FX fade_b
+PAL 0
+
+ROOM 4
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+c,c,c,j,g,g,g,g,g,g,g,g,i,c,c,c
+c,c,j,0,0,0,0,0,0,o,0,0,0,i,c,c
+c,j,0,s,q,q,q,q,q,t,q,q,x,0,i,c
+c,f,0,r,s,q,q,q,q,q,q,x,r,0,e,c
+c,f,0,r,r,0,0,0,0,0,0,r,r,0,e,c
+c,f,0,10,r,0,0,0,0,0,0,r,r,o,e,c
+c,f,0,0,r,0,0,0,0,0,0,r,r,0,e,c
+m,f,0,w,r,0,0,0,0,0,0,r,r,0,e,c
+c,f,0,0,r,0,0,0,0,0,0,r,r,0,e,c
+c,f,0,11,r,0,0,0,0,0,0,r,r,0,e,c
+c,f,0,r,y,q,q,q,q,q,q,z,r,0,e,c
+c,l,0,y,q,q,q,t,q,q,q,q,z,0,k,c
+c,c,l,0,0,0,0,o,0,0,0,0,0,k,c,c
+c,c,c,l,h,h,h,h,h,h,h,h,k,c,c,c
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+NAME fusion
+ITM 1 5,5
+ITM 1 5,6
+ITM 1 5,7
+ITM 1 5,8
+ITM 1 5,9
+ITM 1 5,10
+ITM 1 6,10
+ITM 1 7,10
+ITM 1 8,10
+ITM 1 9,10
+ITM 1 10,10
+ITM 1 10,9
+ITM 1 10,8
+ITM 1 10,7
+ITM 1 10,6
+ITM 1 10,5
+ITM 1 9,5
+ITM 1 8,5
+ITM 1 7,5
+ITM 1 6,5
+ITM 8 6,6
+ITM 8 6,7
+ITM 8 6,8
+ITM 8 6,9
+ITM 8 7,9
+ITM 8 8,9
+ITM 8 9,9
+ITM 8 9,8
+ITM 8 9,7
+ITM 8 9,6
+ITM 8 8,6
+ITM 8 7,6
+ITM a 7,7
+ITM b 8,7
+ITM c 7,8
+ITM d 8,8
+ITM e 1,8
+ITM 4 13,7
+EXT 0,8 2 15,8 FX fade_b
+END 7 3,8
+PAL 0
+
+ROOM 5
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+c,c,c,c,c,c,j,g,i,c,c,c,c,c,c,c
+c,c,c,c,c,c,f,0,e,m,c,c,c,c,c,c
+c,c,c,c,c,c,l,h,k,c,c,c,c,c,c,c
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c
+NAME penalty
+ITM g 8,8
+EXT 9,8 3 7,4 FX tunnel
+PAL 0
+
+TIL 10
+00111100
+00111100
+00111100
+00111100
+00111100
+00000000
+00000000
+00000000
+NAME open_wall1
+WAL true
+
+TIL 11
+00111100
+00100100
+00100100
+00100100
+00100100
+00100100
+00100100
+00100100
+NAME open_wall2
+WAL true
+
+TIL 12
+00000000
+11100110
+00000000
+10011001
+10011001
+00000000
+11100110
+00000000
+NAME dock_end_e
+
+TIL a
+11100111
+11011011
+10111101
+01111110
+11100111
+11011011
+10111101
+01111110
+>
+10111101
+01111110
+11100111
+11011011
+10111101
+01111110
+11100111
+11011011
+NAME conveyor_n
+WAL true
+
+TIL b
+01111110
+10111101
+11011011
+11100111
+01111110
+10111101
+11011011
+11100111
+>
+11011011
+11100111
+01111110
+10111101
+11011011
+11100111
+01111110
+10111101
+NAME conveyor_s
+WAL true
+
+TIL c
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME pit
+WAL true
+
+TIL d
+00111100
+01000010
+10100101
+10011001
+10011001
+10100101
+01000010
+00111100
+NAME portal
+
+TIL e
+00000000
+00000001
+00000000
+00000011
+00000000
+00000000
+00000001
+00000000
+NAME jagged_e
+
+TIL f
+00000000
+10000000
+00000000
+00000000
+11000000
+00000000
+10000000
+00000000
+NAME jagged_w
+
+TIL g
+01010010
+01000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME jagged_n
+
+TIL h
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00001000
+01001010
+NAME jagged_s
+
+TIL i
+01010010
+01000000
+00000001
+00000000
+00000000
+00000011
+00000000
+00000000
+NAME jagged_ne
+
+TIL j
+00100100
+10000000
+00000000
+00000000
+11000000
+00000000
+10000000
+00000000
+NAME jagged_nw
+
+TIL k
+00000000
+00000001
+00000000
+00000011
+00000000
+00000000
+00100001
+00100100
+NAME jagged_se
+
+TIL l
+00000000
+00000000
+11000000
+00000000
+00000000
+10000000
+00001000
+01001010
+NAME jagged_sw
+
+TIL m
+00000000
+11100111
+00000000
+10011001
+10011001
+00000000
+11100111
+00000000
+NAME bridge_ew
+
+TIL n
+01011010
+01000010
+01000010
+00011000
+00011000
+01000010
+01000010
+01011010
+NAME bridge_ns
+
+TIL o
+01011010
+11111111
+01111110
+11111111
+11111111
+01111110
+11111111
+01011010
+NAME jagged_pit
+WAL true
+
+TIL p
+10100101
+00000000
+10000001
+00000000
+00000000
+10000001
+00000000
+10100101
+NAME debris
+WAL false
+
+TIL q
+11111111
+00000000
+11111111
+11111111
+11111111
+11111111
+11111111
+00000000
+NAME wall_ew
+WAL true
+
+TIL r
+00100100
+00100100
+00100100
+00100100
+00100100
+00100100
+00100100
+00100100
+NAME wall_ns
+WAL true
+
+TIL s
+00111111
+00100000
+00100111
+00100111
+00100111
+00100111
+00100111
+00100100
+NAME wall_corner1
+WAL true
+
+TIL t
+10000001
+10000001
+11000001
+11000011
+11000011
+11100011
+11100011
+00000000
+NAME broken_wall
+WAL false
+
+TIL u
+11111111
+00000000
+11111111
+11100111
+11011011
+10111101
+11111111
+00000000
+>
+11111111
+00000000
+11111111
+10111101
+11011011
+11100111
+11111111
+00000000
+NAME wall_gate
+WAL true
+
+TIL v
+00000000
+01100111
+00000000
+10011001
+10011001
+00000000
+01100111
+00000000
+NAME dock_end_w
+
+TIL w
+00000000
+00101101
+00001100
+00110011
+00110011
+00001100
+00101101
+00000000
+NAME fusion_trigger
+
+TIL x
+11111100
+00000100
+11100100
+11100100
+11100100
+11100100
+11100100
+00100100
+NAME wall_corner2
+WAL true
+
+TIL y
+00100111
+00100000
+00111111
+00111111
+00111111
+00111111
+00111111
+00000000
+NAME wall_corner3
+WAL true
+
+TIL z
+11100100
+00000100
+11111100
+11111100
+11111100
+11111100
+11111100
+00000000
+NAME wall_corner4
+WAL true
+
+SPR A
+00011000
+00100100
+01100110
+00011000
+00111100
+01011010
+00011000
+00000000
+>
+00011000
+00100100
+01100110
+00011000
+00111100
+00111100
+00011000
+00000000
+POS 0 5,8
+
+SPR a
+10100100
+00111100
+01100110
+00111100
+00011000
+00011100
+00011011
+00000000
+>
+00100101
+00111100
+01100110
+00111100
+00011000
+00011100
+00011011
+00000000
+NAME miaobot_start
+DLG SPR_0
+POS 0 8,8
+
+SPR b
+10100100
+00111100
+01100110
+00111100
+00011000
+00011100
+00011011
+00000000
+>
+00100101
+00111100
+01100110
+00111100
+00011000
+00011100
+00011011
+00000000
+NAME miaobot_puzzle
+DLG SPR_1
+POS 1 9,13
+
+SPR c
+00000000
+01111110
+01000010
+01000010
+01111110
+01000010
+00000000
+00000000
+NAME do_not_enter
+DLG SPR_2
+POS 0 4,6
+
+SPR d
+00000000
+01111110
+01000010
+01000010
+01111110
+01000010
+00000000
+00000000
+NAME puzzle_sign
+DLG SPR_3
+POS 1 7,12
+
+SPR e
+00000000
+01111110
+01000010
+01000010
+01111110
+01000010
+00000000
+00000000
+NAME storage_sign
+DLG SPR_4
+POS 2 7,11
+
+SPR f
+10100100
+00111100
+01100110
+00111100
+00011000
+00011100
+00011011
+00000000
+>
+00100101
+00111100
+01100110
+00111100
+00011000
+00011100
+00011011
+00000000
+NAME miaobot_storage
+DLG SPR_5
+POS 2 1,11
+
+SPR g
+00000000
+01111110
+01000010
+01000010
+01111110
+01000010
+00000000
+00000000
+NAME docks_sign
+DLG SPR_6
+POS 3 8,9
+
+SPR h
+10100100
+00111100
+01100110
+00111100
+00011000
+00011100
+00011011
+00000000
+>
+00100101
+00111100
+01100110
+00111100
+00011000
+00011100
+00011011
+00000000
+NAME miaobot_docks
+DLG SPR_7
+POS 3 7,9
+
+SPR i
+00100101
+00111100
+01100110
+00111100
+00011000
+00011100
+00011011
+00000000
+>
+10100100
+00111100
+01100110
+00111100
+00011000
+00011100
+00011011
+00000000
+NAME miaobot_fusion
+DLG SPR_8
+POS 4 2,8
+
+SPR j
+01111110
+01000010
+01111110
+01111110
+01100110
+01111110
+01111110
+00000000
+NAME matter_replicator
+DLG SPR_9
+POS 2 8,4
+
+ITM 0
+00000000
+00000000
+00111100
+00111100
+00100100
+00111100
+00000000
+00000000
+>
+00000000
+00000000
+00111100
+00100100
+00111100
+00111100
+00000000
+00000000
+NAME device
+DLG ITM_0
+
+ITM 1
+01111110
+01111110
+11010110
+01101010
+11010110
+01101010
+01111110
+00000000
+NAME good_charger
+DLG ITM_1
+
+ITM 2
+01111110
+01111110
+11000010
+01011010
+11011010
+01000010
+01111110
+00000000
+NAME bad_charger
+DLG ITM_2
+
+ITM 3
+00111000
+01010100
+10010010
+10011010
+10100010
+01000100
+00111000
+00000000
+>
+00111000
+01010100
+10110010
+10011010
+10000010
+01000100
+00111000
+00000000
+NAME clock
+DLG ITM_3
+
+ITM 4
+00000000
+00111000
+01100100
+01010110
+01111010
+01001110
+00111000
+00000000
+NAME junk
+DLG ITM_4
+
+ITM 5
+01111110
+01111110
+11100010
+01010010
+11001010
+01000110
+01111110
+00000000
+NAME unusable_charger
+DLG ITM_5
+
+ITM 6
+00000000
+00000000
+00111000
+00111100
+00111100
+00011100
+00000000
+00000000
+>
+00000000
+00000000
+00111000
+00101100
+00110100
+00011100
+00000000
+00000000
+NAME emp
+DLG ITM_6
+
+ITM 7
+00000000
+00011110
+01111010
+01001110
+01111010
+01001110
+01111000
+00000000
+NAME rations
+DLG ITM_7
+
+ITM 8
+00000000
+00000000
+00000000
+01111110
+00000100
+00000000
+00000000
+00000000
+NAME baton
+DLG ITM_8
+
+ITM 9
+00011100
+00100010
+00000010
+00000100
+00001000
+00000000
+00001000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME shipment
+DLG ITM_9
+
+ITM a
+00000100
+00001110
+00001111
+00001111
+00001100
+00111111
+00001111
+00010011
+NAME suit1
+
+ITM b
+00100000
+01110000
+11110000
+11110000
+00110000
+11111100
+11110000
+11001000
+NAME suit2
+
+ITM c
+00000100
+00001001
+00010011
+00101111
+01110111
+11011110
+00001100
+00001000
+NAME suit3
+
+ITM d
+00100000
+10010000
+11001000
+11110100
+11101110
+01111011
+00110000
+00010000
+NAME suit4
+
+ITM e
+00011100
+00100010
+00000010
+00000100
+00001000
+00000000
+00001000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME fusion_alert
+DLG ITM_a
+
+ITM f
+00100100
+00100100
+00100100
+00000000
+00100100
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME no_return
+DLG ITM_b
+
+ITM g
+00111000
+01000100
+00000100
+00001000
+00010000
+00000000
+00010000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME penalty_explanation
+DLG ITM_c
+
+DLG SPR_0
+"""
+{
+  - {item "device"} > 0 ?
+    Oh, hello there! I see you've found a {rbw}Universal Translation Device{rbw}, meow! My name is Miaobot.
+    You're the first person I've seen since the Sky Sector stopped bombarding us. I wonder if there are even any other humans left alive in the Underground Sector...
+    Ah, yes, those blinking lights are my low battery alert. My sensors indicate there might be some energy packs somewhere to the east, so I'm about to head that way if you'd like to join me! I hope there are still some {rbw}checker-flavored energy packs{rbw} sitting around, meow!
+  - else ?
+    Miāo?
+}
+"""
+
+DLG SPR_1
+"""
+{
+  - {item "device"} == 0 ?
+    Miāo! Miāo! Miāo!
+  - {item "junk"} > 9 ?
+    Whoa, I don't mean to alarm you, but you're kind of... glowing? You're actually emitting light, meow. Seriously, let's just get you away from here.{ending_text = "ASSIMILATION END 2: You didn't notice you were glowing until Miaobot pointed it out. You start to panic, which pushes the nanomachines inside you that had been trying to protect your body from toxins into overdrive. They take over your nervous system, and you float into the air. All the metal nearby, including poor Miaobot, is ripped apart and pulled toward you, forming an enormous metallic suit. Though you had forgotten, you are now ready to carry out your original mission to destroy as much remaining life on the planet as possible."}
+  - {item "junk"} > 4 ?
+    Are you, uh... are you doing okay? You're kind of swaying around, meow. Let's just get you away from this area.{ending_text = "POISON END: After traveling for a while, your body succumbs to the toxins it has been exposed to and stops functioning."}
+  - {item "good_charger"} > 0 ?
+    Wow, you got the {rbw}checker-flavored energy pack{rbw}! This will get me back into top condition in no time, meow! But we should get out of here first before it gets even more dangerous.{ending_text = "TRUE END: You quickly leave as Miaobot recommended and then give her the energy pack. She brightens up almost immediately and starts bouncing around. As you travel through the hazardous terrain, Miaobot uses her sensors at full power to guide you. You think you two can make it somehow. TO BE CONTINUED, MAYBE"}
+  - {item "bad_charger"} > 0 ?
+    Oh, a {clr3}square-flavored energy pack{clr3}! It's not my favorite flavor, but it'll have to do for now, meow. We should get out of here before it gets even more dangerous.{ending_text = "TRAGIC END: You quickly leave as Miaobot recommended and then give her the energy pack. After traveling for a while, something in her back suddenly explodes, and she stops functioning. It appears she was not designed to use the energy pack you found and was simply urging you to move on for your own safety without any regard for herself."}
+  - else ?
+    Yes! I see some energy packs here, meow! There's even a {rbw}checker-flavored energy pack{rbw}!
+    
+    ... Oh, it looks kind of dangerous though. Everything's all jumbled up, and there aren't even any paths showing where the teleportation pads lead anymore, meow. Please don't feel like you need to put yourself at risk for my sake.
+}
+"""
+
+DLG ITM_1
+"""
+{
+  - {item "device"} > 0 ?
+    You found a {rbw}checker-flavored energy pack{rbw}!
+    Alright! Now you just have to get back safely.
+  - else ?
+    You found a {clr3}checker-flavored energy pack{clr3}!
+    It might be worth holding on to this.
+}
+"""
+
+DLG ITM_2
+"""
+{
+  - {item "device"} > 0 ?
+    You found a {clr3}square-flavored energy pack{clr3}!
+    It isn't the flavor Miaobot mentioned, but it might still be worth holding on to.
+  - else ?
+    You found a {clr3}square-flavored energy pack{clr3}!
+    It might be worth holding on to this.
+}
+"""
+
+DLG ITM_3
+"""
+{sequence
+  - You found a {clr3}clock{clr3}!
+    
+    Hm, it still seems to be working too. But do you really need this? Ah, whatever, might as well add it to your collection.
+  - You found a {clr3}clock{clr3}!
+    
+    These things sure are popular around here for some reason.
+}
+"""
+
+DLG ITM_4
+"""
+{sequence
+  - You found {clr3}war debris{clr3}!
+    
+    Uh, maybe you should just toss this. Sky Sector weapons leave highly toxic waste.
+  - You found {clr3}war debris{clr3}!
+    
+    You should just toss this. It's highly toxic.
+  - You found {clr3}war debris{clr3}!
+    
+    You should really just toss this. It's highly toxic.
+  - You found {clr3}war debris{clr3}!
+    
+    Please stop approaching this stuff. It's highly toxic.
+  - You found... {clr3}war debris{clr3}.
+    
+    Seriously, why are you doing this?
+  - Are you planning on doing something with all this {clr3}war debris{clr3}?
+  - Do you think {clr3}war debris{clr3} has some use other than poisoning your body?
+  - Does {clr3}war debris{clr3} remind you of something you long for?
+  - Do you enjoy the taste of {clr3}war debris{clr3}?
+  - There doesn't appear to be any more {clr3}war debris{clr3} in the vicinity. You sure accomplished... something.
+}
+"""
+
+DLG SPR_2
+"""
+"PRIVATE YARD. PACIFICATION DRONES WILL BISECT TRESPASSERS ON SIGHT."
+
+It doesn't look like the drones are there anymore though. Should you risk it?
+"""
+
+DLG SPR_3
+"""
+"WELCOME TO COMMERCIAL DISTRICT 4649! THE MORE YOU BUY, THE MORE YOU PROVE YOUR NATIONAL PRIDE! 50% OF ALL PROCEEDS GO DIRECTLY TO HER MAJESTY'S AUTONOMOUS SELF-DEFENSE CORPS!"
+Well, it didn't exactly end up being used for "self-defense," not that it matters now. It can't hurt to take a look, right?
+"""
+
+DLG ITM_0
+"""
+{sequence
+  - You found a {rbw}Universal Translation Device{rbw}!
+    Seems pretty useful!
+  - You found a {rbw}Universal Translation Device{rbw}!
+    It can't hurt to have a backup just in case.
+}
+"""
+
+DLG SPR_4
+"""
+"MATTER REPLICATION FACILITY 4649. UNAUTHORIZED PERSONNEL WILL BE SENT DIRECTLY TO CORPORATE DETENTION CENTER BY TELEPORTATION PAD."
+
+Hm. Maybe there's a less risky way to enter this building.
+"""
+
+DLG ITM_5
+"""
+{sequence
+  - You found an {clr3}unusable energy pack{clr3}!
+    It's been marked as defective and is probably just being stored to be converted into weaponry. Matter replication is an imperfect technology after all.
+  - You found an {clr3}unusable energy pack{clr3}!
+    It's also been marked as defective. Useless.
+}
+"""
+
+DLG ITM_6
+"""
+{sequence
+  - You found an {clr3}EMP crystal{clr3}!
+    
+    You can break this to activate an electromagnetic pulse that's capable of disabling any nearby robots. But Miaobot seems to be the only robot around, so you probably won't need to. Hopefully.
+  - You found an {clr3}EMP crystal{clr3}!
+    
+    Better safe than sorry.
+}
+"""
+
+DLG ITM_7
+"""
+{shuffle
+  - You found {clr3}rations{clr3}!
+    
+    Mixed fauna flavor hardtack. Delicious.
+  - You found {clr3}rations{clr3}!
+    
+    Mixed flora flavor hardtack. Yum.
+}
+"""
+
+DLG SPR_5
+"""
+{
+  - {item "device"} == 0 ?
+    Miāo...
+  - visited_fusion_area == 1 ?
+    Let's stay away from that building to the east. Please.
+  - {item "unusable_charger"} > 0 ?
+    As I suspected, there were only {clr3}unusable energy packs{clr3} here, meow... It's a good thing there's plenty of {clr3}rations{clr3} for you to eat though!
+    
+    After adjusting my sensors a bit, it definitely seems like we can find something if we try going south, so I think that's where we should go next whenever you're ready.
+  - else ?
+    Oh, thanks for carrying me here, meow! I think I at least have enough energy to walk a little bit, so please feel free to set me down whenever your arms get tired.
+    Huh, my sensors are picking up a weak signal from that scary-looking building, but I can't tell if it's because the energy packs inside are defective or the walls are just impeding my sensors. Don't do anything too risky if you decide to go in there.
+}
+"""
+
+DLG ITM_8
+"""
+{sequence
+  - You found a {clr3}Tactical Riot Dispersal Baton{clr3}!
+    This is the latest military-police model that can fire lethal flesh-piercing energy beams. Seems like an unnecessarily dangerous thing to have considering the lack of humans around here, but maybe it'll come in handy?
+  - You found a {clr3}Tactical Riot Dispersal Baton{clr3}!
+    Do you really think you can wield more than one of these at a time without hurting yourself?
+}
+"""
+
+DLG SPR_6
+"""
+"WELCOME TO CIVILIAN DOCKS 4649. PLEASE HAVE TRANSIT CARD PREPARED WITH REQUIRED AMOUNT WHEN BOARDING HOVERSHIP. CUSTOMERS ATTEMPTING TO BOARD WITH INSUFFICIENT FUNDS WILL BE FORCIBLY REMOVED."
+
+Of course, "forcibly removed" usually meant having a drone drop the offender into the pit below. But there aren't any drones here anymore. Or hoverships for that matter.
+"""
+
+DLG SPR_7
+"""
+{
+  - {item "device"} == 0 ?
+    Miāo.
+  - penalized == 1 ?
+    Whoa, that was scary! I'm glad you're okay, meow. Really, you don't have to force yourself to do this.
+  - shipment_status == 1 ?
+    You're a pretty good shot! But yeah, it's too bad those beams are so destructive, meow. Let's just try going east next.
+  - shipment_status == 2 ?
+    Yeah, I figured we wouldn't be able to retrieve that shipment, meow. Let's just try going east next.
+  - else ?
+    I guess if there were any hoverships here for us to take, it'd make it easier for us to travel around, meow. Oh well. Might as well keep going.
+}
+"""
+
+DLG ITM_9
+"""
+{
+  - {item "baton"} > 0 ?
+    Above you, you see what appears to be a stray shipment of energy packs. You take aim at the hover orb holding it up with your {clr3}Tactical Riot Dispersal Baton{clr3} and fire an energy beam, but the beam widens and engulfs the entire package, causing it to explode. Maybe this weapon isn't very useful for your purposes after all.{shipment_status = 1}
+  - else ?
+    Above you, you see what appears to be a stray shipment of energy packs. However, it floats out of reach before you can do anything about it. Darn.{shipment_status = 2}
+}
+"""
+
+DLG ITM_a
+"""
+You hear a loud mechanical voice:
+"MIAOBOT DETECTED. OPTIONAL CUSTODIAN DETECTED. FIRST SECURITY LAYER UNLOCKED. INITIATING FUSION SEQUENCE. CUSTODIAN, PLEASE PROCEED."
+
+Miaobot seems to be trying to block the path forward.{visited_fusion_area = 1}
+"""
+
+DLG SPR_8
+"""
+{
+  - {item "device"} == 0 ?
+    ... Miāo... Miāo...
+  - else ?
+    ... Hey, I really think we shouldn't be here.
+}
+"""
+
+DLG ITM_b
+"""
+The path leading south looks especially hazardous, but it seems to be the only way forward. If you keep going, you probably won't be able to return to this area again.
+If you need to talk to someone, make sure you do so before proceeding.
+"""
+
+DLG SPR_9
+The matter replicator is not responding.
+
+DLG ITM_c
+The teleportation pad you tried to take malfunctioned and sent you to a stray floating platform above the docks. It's slowly rotating clockwise for some reason. Fortunately, it looks like you can jump down safely from here.{penalized = 1}
+
+END 0
+BACKTRACK END: You try to go back the way you came, but the western portion of the sector is now extremely unstable. You fall to your death.
+
+END 1
+{print ending_text}
+
+END 2
+
+
+END 3
+
+
+END 4
+
+
+END 5
+{print detention_text}
+
+END 6
+{print detention_text}
+
+END 7
+ASSIMILATION END 1: The walls in front of you slide open, and you see what appears to be a much larger version of Miaobot surrounded by a massive stockpile of weapons and energy packs. Miaobot is suddenly lifted into the air and absorbed into the larger suit along with all of the supplies. She then materializes numerous cannons and begins firing in random directions. You are killed before you can react.
+
+VAR ending_text
+BAD END: You abandon the noisy mechanical cat and try to escape the ruined sector on your own. However, you later fail to notice an unstable section of a bridge you need to cross and fall to your death. Perhaps you should have invited the cat to go with you.
+
+VAR detention_text
+JAILBREAK END: The teleportation pad attempts to send you to a corporate detention center. However, the floating platform at the target location has been completely obliterated, so you end up falling to your death.
+
+VAR shipment_status
+0
+
+VAR penalized
+0
+
+VAR visited_fusion_area
+0
+
